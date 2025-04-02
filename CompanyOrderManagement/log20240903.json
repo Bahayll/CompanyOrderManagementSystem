@@ -1,0 +1,10 @@
+{"@t":"2024-09-03T19:49:33.3405681Z","@mt":"Successfully fetched 3 companies."}
+{"@t":"2024-09-03T19:49:57.2056445Z","@mt":"Failed to delete company with ID aeb63e27-4fc8-4c51-88da-6b4a2b99b6e1. Exception: Company with the specified ID does not exist.","@l":"Error"}
+{"@t":"2024-09-03T19:50:04.9343834Z","@mt":"Failed to delete company with ID aeb63e27-4fc8-4c51-88da-6b4a2b99b6e2. Exception: Company with the specified ID does not exist.","@l":"Error"}
+{"@t":"2024-09-03T19:50:44.5524096Z","@mt":"Validation errors occurred: Email: Invalid email format.","@l":"Error"}
+{"@t":"2024-09-03T19:58:24.7053548Z","@mt":"Successfully fetched 3 companies.","ActionId":"9e0eac5a-263b-4ff8-b003-8ed347db0a8f","ActionName":"CompanyOrderManagement.WebAPI.Controllers.CompanyController.GetAll (CompanyOrderManagement.WebAPI)"}
+{"@t":"2024-09-03T20:04:27.8480501Z","@mt":"Successfully fetched 3 companies.","Message":"Successfully fetched 3 companies.","ActionId":"a88ba21c-51b6-48c8-8ac0-afca2566f1af","ActionName":"CompanyOrderManagement.WebAPI.Controllers.CompanyController.GetAll (CompanyOrderManagement.WebAPI)"}
+{"@t":"2024-09-03T20:09:35.0114099Z","@mt":"Successfully fetched 3 companies."}
+{"@t":"2024-09-03T20:09:41.7418712Z","@mt":"Successfully fetched 3 companies."}
+{"@t":"2024-09-03T20:50:13.0085348Z","@mt":"Successfully fetched 3 companies."}
+{"@t":"2024-09-03T20:53:45.2070052Z","@mt":"Successfully fetched 3 companies."}
