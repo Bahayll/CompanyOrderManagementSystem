@@ -1,8 +1,7 @@
 # Company Order Management Service
 
-    Company Order Management Service, şirketlerin ürün ve sipariş süreçlerini verimli bir şekilde yönetmelerine olanak tanıyan bir backend uygulamasıdır. Bu proje, şirketlerin belirlenen zaman aralıklarında sipariş alabilmesini, stok takibini yapabilmesini ve sipariş süreçlerini optimize edebilmesini sağlamak amacıyla geliştirilmiştir.
-
-    ASP.NET Core 6, Entity Framework Core, Mediatr ve FluentValidation gibi modern teknolojilerle geliştirilen bu sistem, CQRS mimarisini kullanarak performanslı ve ölçeklenebilir bir altyapı sunmaktadır. Uygulama, Repository Design Pattern ve Unit of Work prensiplerini benimseyerek temiz ve yönetilebilir bir kod tabanına sahiptir.
+   Company Order Management Service, şirketlerin ürün ve sipariş süreçlerini verimli bir şekilde yönetmelerine olanak tanıyan bir backend uygulamasıdır. Bu proje, şirketlerin belirlenen zaman aralıklarında sipariş alabilmesini, stok takibini yapabilmesini ve sipariş süreçlerini optimize edebilmesini sağlamak amacıyla geliştirilmiştir.
+   ASP.NET Core 6, Entity Framework Core, Mediatr ve FluentValidation gibi modern teknolojilerle geliştirilen bu sistem, CQRS mimarisini kullanarak performanslı ve ölçeklenebilir bir altyapı sunmaktadır. Uygulama, Repository Design Pattern ve Unit of Work prensiplerini benimseyerek temiz ve yönetilebilir bir kod tabanına sahiptir.
 
 ## Proje Özellikleri
 
@@ -20,71 +19,71 @@
 
 ### Ürün Yönetimi:
 
-Şirketlere özel ürün ekleme
+- Şirketlere özel ürün ekleme
 
-Stok ve fiyat güncelleme
+- Stok ve fiyat güncelleme
 
-Ürünleri listeleme
+- Ürünleri listeleme
 
-Ürün silme (ilgili siparişler de silinir)
+-Ürün silme (ilgili siparişler de silinir)
 
 ### Sipariş Yönetimi:
 
-Sipariş oluşturma
+- Sipariş oluşturma
 
-Siparişlerin durumunu takip etme
+- Siparişlerin durumunu takip etme
 
-Siparişleri listeleme ve filtreleme
+- Siparişleri listeleme ve filtreleme
 
-Sipariş silme
+- Sipariş silme
 
 ### Sipariş kısıtlamaları:
 
-Şirketin onay durumu kontrol edilir. Onaylanmamış şirketlere sipariş verilemez.
+- Şirketin onay durumu kontrol edilir. Onaylanmamış şirketlere sipariş verilemez.
 
-Şirketin sipariş kabul saatleri kontrol edilir. Belirtilen saatler dışında sipariş alınamaz.
+- Şirketin sipariş kabul saatleri kontrol edilir. Belirtilen saatler dışında sipariş alınamaz.
 
-Şirketin sattığı ürünler haricinde sipariş oluşturulamaz.
+- Şirketin sattığı ürünler haricinde sipariş oluşturulamaz.
 
 ## Gelişmiş Mimari ve Teknoloji Kullanımı:
 
-CQRS ve Mediatr kullanımıyla performanslı veri işleme
+- CQRS ve Mediatr kullanımıyla performanslı veri işleme
 
-Onion Architecture prensipleriyle modüler ve ölçeklenebilir yapı
+- Onion Architecture prensipleriyle modüler ve ölçeklenebilir yapı
 
-FluentValidation ile güvenilir veri doğrulama
+- FluentValidation ile güvenilir veri doğrulama
 
-AutoMapper kullanarak verimli veri dönüşümleri
+- AutoMapper kullanarak verimli veri dönüşümleri
 
 ## Kullanılan Teknolojiler
 
-Backend: .NET Core, ASP.NET Web API
+- Backend: .NET Core, ASP.NET Web API
 
-Veritabanı: MSSQL ve Entity Framework Core kullanılarak geliştirilmiştir. Farklı veritabanlarıyla entegrasyona uygun esnek bir yapı sunar.
+- Veritabanı: MSSQL ve Entity Framework Core kullanılarak geliştirilmiştir. Farklı veritabanlarıyla entegrasyona uygun esnek bir yapı sunar.
 
-Mimari: Onion Architecture, Repository Pattern, Unit of Work, CQRS, Mediatr, FluentValidation, AutoMapper ve  JWT Authentication.
+- Mimari: Onion Architecture, Repository Pattern, Unit of Work, CQRS, Mediatr, FluentValidation, AutoMapper ve  JWT Authentication.
 
-Test: xUnit, Moq
+- Test: xUnit, Moq
 
 ## Kurulum ve Çalıştırma
 
 Projeyi yerel ortamda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
 
-Projeyi klonlayın:
+- Projeyi klonlayın:
 
-git clone https://github.com/kullaniciadi/CompanyOrderManagementService.git
-cd CompanyOrderManagementService
+   git clone https://github.com/kullaniciadi/CompanyOrderManagementService.git
+   cd CompanyOrderManagementService
 
-Bağımlılıkları yükleyin:
+- Bağımlılıkları yükleyin:
 
-dotnet restore
+   dotnet restore
 
-Veritabanını oluşturun:
+- Veritabanını oluşturun:
 
-dotnet ef database update
+   dotnet ef database update
 
-Projeyi çalıştırın:
+- Projeyi çalıştırın:
 
-dotnet run
+   dotnet run
 
 Swagger UI üzerinden API’yi test edibilirsiniz.
