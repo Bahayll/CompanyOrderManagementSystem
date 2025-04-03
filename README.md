@@ -1,22 +1,22 @@
 # Company Order Management Service
 
-Company Order Management Service, şirketlerin ürün ve sipariş süreçlerini verimli bir şekilde yönetmelerine olanak tanıyan bir backend uygulamasıdır. Bu proje, şirketlerin belirlenen zaman aralıklarında sipariş alabilmesini, stok takibini yapabilmesini ve sipariş süreçlerini optimize edebilmesini sağlamak amacıyla geliştirilmiştir.
+    Company Order Management Service, şirketlerin ürün ve sipariş süreçlerini verimli bir şekilde yönetmelerine olanak tanıyan bir backend uygulamasıdır. Bu proje, şirketlerin belirlenen zaman aralıklarında sipariş alabilmesini, stok takibini yapabilmesini ve sipariş süreçlerini optimize edebilmesini sağlamak amacıyla geliştirilmiştir.
 
-ASP.NET Core 6, Entity Framework Core, Mediatr ve FluentValidation gibi modern teknolojilerle geliştirilen bu sistem, CQRS mimarisini kullanarak performanslı ve ölçeklenebilir bir altyapı sunmaktadır. Uygulama, Repository Design Pattern ve Unit of Work prensiplerini benimseyerek temiz ve yönetilebilir bir kod tabanına sahiptir.
+    ASP.NET Core 6, Entity Framework Core, Mediatr ve FluentValidation gibi modern teknolojilerle geliştirilen bu sistem, CQRS mimarisini kullanarak performanslı ve ölçeklenebilir bir altyapı sunmaktadır. Uygulama, Repository Design Pattern ve Unit of Work prensiplerini benimseyerek temiz ve yönetilebilir bir kod tabanına sahiptir.
 
 ## Proje Özellikleri
 
-Bu proje, şirketlerin sipariş ve ürün yönetimini kolaylaştırmak için geliştirilmiştir ve aşağıdaki temel özellikleri içermektedir:
+- Bu proje, şirketlerin sipariş ve ürün yönetimini kolaylaştırmak için geliştirilmiştir ve aşağıdaki temel özellikleri içermektedir:
 
 ### Şirket Yönetimi:
 
-Yeni şirket ekleme
+- Yeni şirket ekleme
 
-Şirket bilgilerini güncelleme (onay durumu, sipariş izin saatleri vb.)
+- Şirket bilgilerini güncelleme (onay durumu, sipariş izin saatleri vb.)
 
-Şirketleri listeleme
+- Şirketleri listeleme
 
-Şirket silme (bağlı sipariş ve ürünleriyle birlikte)
+- Şirket silme (bağlı sipariş ve ürünleriyle birlikte)
 
 ### Ürün Yönetimi:
 
