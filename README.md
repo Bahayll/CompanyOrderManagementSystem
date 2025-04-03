@@ -1,4 +1,4 @@
-# Company Order Management Service
+# Company Order Management System
 
 - Company Order Management Service, şirketlerin ürün ve sipariş süreçlerini verimli bir şekilde yönetmelerine olanak tanıyan bir backend uygulamasıdır. Bu proje, şirketlerin belirlenen zaman aralıklarında sipariş alabilmesini, stok takibini yapabilmesini ve sipariş süreçlerini optimize edebilmesini sağlamak amacıyla geliştirilmiştir.
 - ASP.NET Core , Entity Framework Core, Mediatr ve FluentValidation gibi modern teknolojilerle geliştirilen bu sistem, CQRS mimarisini kullanarak performanslı ve ölçeklenebilir bir altyapı sunmaktadır. Uygulama, Repository Design Pattern ve Unit of Work prensiplerini benimseyerek temiz ve yönetilebilir bir kod tabanına sahiptir.
