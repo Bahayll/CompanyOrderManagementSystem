@@ -25,7 +25,7 @@
 
 - Ürünleri listeleme
 
--Ürün silme (ilgili siparişler de silinir)
+- Ürün silme (ilgili siparişler de silinir)
 
 ### Sipariş Yönetimi:
 
